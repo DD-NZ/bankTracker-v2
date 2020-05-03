@@ -1,0 +1,100 @@
+.noselect {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+#body{
+  margin-top: 65px;
+  color: "#424242";
+.data {
+  width: 100%;
+  .dataContent {
+    height: 100%;
+    width:100%;
+    .display-data {
+      height: 100%;
+      width: 100%;
+      .listData {
+        height: 100%;
+        width: 100%;
+        padding: 1em;
+        border-radius: 15px;
+        overflow-y: scroll;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        .card-container {
+          width:100%;
+          margin-bottom: 1em;
+        }
+      }
+      .graph-data {
+        height: 100%;
+        width: 100%;
+        .bar-chart, .line-graph, .pie-chart {
+          position: absolute;
+        }
+      }
+
+    }
+
+    .newData {
+      height: 100%;
+
+      .loadContainer {
+        height: 100%;
+
+        .fileDropArea {
+          height: 100%;
+
+          .content {
+            height: 100%;
+            display: flex;
+            flex-wrap: wrap;
+            .row {
+              width: 100%;
+            }
+            .rowCenter {
+              width: 100%;
+              text-align: center;
+              button {
+                display: block;
+                margin: 1rem;
+              }
+              i {
+                color: #ff9800;
+                padding: 1rem;
+              }
+
+              p {
+                font-size: 2rem;
+              }
+            }
+          }
+        }
+      }
+    }
+}
+.table {
+.floatLeft {
+  margin-top: 1em;
+  float: left;
+}
+.floatRight {
+  margin-top: 1em;
+  float: right;
+}
+width: 100%;
+}
+}
+}
+
+.MuiButtonBase-root.MuiButton-root.MuiButton-text{
+  background-color: #303030;
+  display: block;
+  margin: 1em;
+}
